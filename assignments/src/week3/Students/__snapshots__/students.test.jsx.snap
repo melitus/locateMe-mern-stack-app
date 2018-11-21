@@ -1,0 +1,209 @@
+exports[`<Students /> should render students 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Student />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="insert profile"
+          src={undefined} />,
+        <p>
+          FirstName: 
+           LastName: 
+</p>,
+        <p>
+          JobTitle: 
+</p>,
+        <p>
+          Summary: 
+</p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "insert profile",
+          "src": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "FirstName: ",
+            undefined,
+            " LastName: ",
+            undefined,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "FirstName: ",
+          undefined,
+          " LastName: ",
+          undefined,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "JobTitle: ",
+            undefined,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "JobTitle: ",
+          undefined,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Summary: ",
+            undefined,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Summary: ",
+          undefined,
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "li",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="insert profile"
+            src={undefined} />,
+          <p>
+            FirstName: 
+             LastName: 
+</p>,
+          <p>
+            JobTitle: 
+</p>,
+          <p>
+            Summary: 
+</p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "insert profile",
+            "src": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "FirstName: ",
+              undefined,
+              " LastName: ",
+              undefined,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "FirstName: ",
+            undefined,
+            " LastName: ",
+            undefined,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "JobTitle: ",
+              undefined,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "JobTitle: ",
+            undefined,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Summary: ",
+              undefined,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Summary: ",
+            undefined,
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "li",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenFourAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
